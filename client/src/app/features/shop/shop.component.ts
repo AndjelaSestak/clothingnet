@@ -13,7 +13,6 @@ import { ShopParams } from '../../shared/models/shopParams';
 import { MatPaginator, PageEvent } from '@angular/material/paginator';
 import { Pagination } from '../../shared/models/pagination';
 import { FormsModule } from '@angular/forms';
-import { MatIconButton } from "../../../../node_modules/@angular/material/button/index";
 
 @Component({
   selector: 'app-shop',
@@ -27,8 +26,7 @@ import { MatIconButton } from "../../../../node_modules/@angular/material/button
     MatListOption,
     MatMenuTrigger,
     MatPaginator,
-    FormsModule,
-    MatIconButton
+    FormsModule
 ],
   templateUrl: './shop.component.html',
   styleUrl: './shop.component.scss'
