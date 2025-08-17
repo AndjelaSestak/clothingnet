@@ -1,164 +1,155 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Name": "Burberry Trench Coat",
+    "Description": "A classic beige coat with a belt and signature check lining.",
     "Price": 200,
-    "PictureUrl": "/images/products/sb-ang1.png",
-    "Type": "Boards",
-    "Brand": "Angular",
-    "QuantityInStock": 82
+    "PictureUrl": "/images/products/coat1.png",
+    "Type": "Coat",
+    "Brand": "Burberry",
+    "QuantityInStock": 1
   },
   {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Name": "Grey Wool Coat",
+    "Description": "A knee-length, grey coat with wide lapels and buttoned cuffs. The sleeves are cuffed to reveal a contrasting, textured beige lining.",
     "Price": 150,
-    "PictureUrl": "/images/products/sb-ang2.png",
-    "Type": "Boards",
-    "Brand": "Angular",
-    "QuantityInStock": 75
+    "PictureUrl": "/images/products/coat2.png",
+    "Type": "Coat",
+    "Brand": "Unbranded",
+    "QuantityInStock": 1
   },
   {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Name": "Nike Bomber Jacket",
+    "Description": "A gray bomber jacket with a Nike logo and ribbed cuffs.",
     "Price": 180,
-    "PictureUrl": "/images/products/sb-core1.png",
-    "Type": "Boards",
-    "Brand": "NetCore",
-    "QuantityInStock": 3
+    "PictureUrl": "/images/products/jacket2.png",
+    "Type": "Jacket",
+    "Brand": "Nike",
+    "QuantityInStock": 1
   },
   {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "/images/products/sb-core2.png",
-    "Type": "Boards",
-    "Brand": "NetCore",
-    "QuantityInStock": 52
+    "Name": "Vintage Field Jacket",
+    "Description": "A distressed, earthy-toned vintage-style jacket with a button-up front, large patch pockets, and unique elbow patches.",
+    "Price": 100,
+    "PictureUrl": "/images/products/jacket1.png",
+    "Type": "Jacket",
+    "Brand": "Unbranded",
+    "QuantityInStock": 1
   },
   {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "/images/products/sb-react1.png",
-    "Type": "Boards",
-    "Brand": "React",
-    "QuantityInStock": 97
+    "Name": "Texas Jacket",
+    "Description": "A classic, texas jacket with a Western-style design. It features a button-down front, pointed collar, and two flap pockets on the chest.",
+    "Price": 100,
+    "PictureUrl": "/images/products/texas_jacket.png",
+    "Type": "Jacket",
+    "Brand": "Unbranded",
+    "QuantityInStock": 1
   },
   {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "PictureUrl": "/images/products/sb-ts1.png",
-    "Type": "Boards",
-    "Brand": "Typescript",
-    "QuantityInStock": 37
+    "Name": "Guess Jeans",
+    "Description": "A pair of classic, straight-leg blue denim jeans. They feature a traditional five-pocket design and a timeless wash.",
+    "Price": 200,
+    "PictureUrl": "/images/products/guessjeans1.png",
+    "Type": "Jeans",
+    "Brand": "Guess",
+    "QuantityInStock": 1
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Name": "Levi's Jeans",
+    "Description": "Classic straight-leg jeans in a medium-blue color, with an iconic red tab and signature stitching on the back pockets.",
+    "Price": 115,
+    "PictureUrl": "/images/products/jeans2.png",
+    "Type": "Jeans",
+    "Brand": "Levi's",
+    "QuantityInStock": 1
+  },
+  {
+    "Name": "Indigo Blue Jeans",
+    "Description": "A pair of modern indigo blue jeans with a slightly faded wash and a classic five-pocket design.",
+    "Price": 50,
+    "PictureUrl": "/images/products/jeans3.png",
+    "Type": "Jeans",
+    "Brand": "Unbranded",
+    "QuantityInStock": 1
+  },
+  {
+    "Name": "Pink Loungewear Set",
+    "Description": "A comfortable, soft-pink tracksuit set consisting of a crewneck sweatshirt with a kangaroo pocket and matching elastic-waist sweatpants.",
+    "Price": 55,
+    "PictureUrl": "/images/products/set3.png",
+    "Type": "Set",
+    "Brand": "Unbranded",
+    "QuantityInStock": 1
+  },
+  {
+    "Name": "Green Adidas Tracksuit",
+    "Description": "A classic Adidas tracksuit set in a deep green color, with iconic white stripes on the sleeves and legs.",
+    "Price": 50,
+    "PictureUrl": "/images/products/set2.png",
+    "Type": "Set",
+    "Brand": "Adidas",
+    "QuantityInStock": 1
+  },
+  {
+    "Name": "Blue Adidas Tracksuit",
+    "Description": "A classic Adidas tracksuit set in a faded blue color, with iconic white stripes on the sleeves and legs.",
+    "Price": 50,
+    "PictureUrl": "/images/products/set1.png",
+    "Type": "Set",
+    "Brand": "Adidas",
+    "QuantityInStock": 1
+  },
+  {
+    "Name": "Unbranded T-shirt",
+    "Description": "A simple, dark grey crewneck t-shirt.",
+    "Price": 5,
+    "PictureUrl": "/images/products/tshirt1.png",
+    "Type": "T-shirt",
+    "Brand": "Unbranded",
+    "QuantityInStock": 1
+  },
+  {
+    "Name": "Eagle Graphic T-shirt",
+    "Description": "A light grey t-shirt featuring a large, vintage-style graphic of an eagle flying against a striped, circular sunset background.",
+    "Price": 5,
+    "PictureUrl": "/images/products/tshirt2.png",
+    "Type": "T-shirt",
+    "Brand": "Unbranded",
+    "QuantityInStock": 1
+  },
+  {
+    "Name": "Black T-shirt",
+    "Description": "A classic, short-sleeve black t-shirt with a crewneck collar.",
+    "Price": 3,
+    "PictureUrl": "/images/products/tshirt3.png",
+    "Type": "T-shirt",
+    "Brand": "Unbranded",
+    "QuantityInStock": 1
+  },
+  {
+    "Name": "Nike Grey T-shirt",
+    "Description": "A grey t-shirt with a large white Nike logo and Swoosh printed on the chest.",
     "Price": 10,
-    "PictureUrl": "/images/products/hat-core1.png",
-    "Type": "Hats",
-    "Brand": "NetCore",
-    "QuantityInStock": 32
+    "PictureUrl": "/images/products/tshirt4.png",
+    "Type": "T-shirt",
+    "Brand": "Nike",
+    "QuantityInStock": 1
   },
   {
-    "Name": "Green React Woolen Hat",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "/images/products/hat-react1.png",
-    "Type": "Hats",
-    "Brand": "React",
-    "QuantityInStock": 6
+    "Name": "Guess Logo T-shirt",
+    "Description": "A light beige t-shirt featuring a large blue 'GUESS' logo on the chest.",
+    "Price": 13,
+    "PictureUrl": "/images/products/tshirt5.png",
+    "Type": "T-shirt",
+    "Brand": "Guess",
+    "QuantityInStock": 1
   },
   {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "/images/products/hat-react2.png",
-    "Type": "Hats",
-    "Brand": "React",
-    "QuantityInStock": 17
-  },
-  {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "/images/products/glove-code1.png",
-    "Type": "Gloves",
-    "Brand": "VS Code",
-    "QuantityInStock": 74
-  },
-  {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "/images/products/glove-code2.png",
-    "Type": "Gloves",
-    "Brand": "VS Code",
-    "QuantityInStock": 19
-  },
-  {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "/images/products/glove-react1.png",
-    "Type": "Gloves",
-    "Brand": "React",
-    "QuantityInStock": 77
-  },
-  {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "/images/products/glove-react2.png",
-    "Type": "Gloves",
-    "Brand": "React",
-    "QuantityInStock": 45
-  },
-  {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "/images/products/boot-redis1.png",
-    "Type": "Boots",
-    "Brand": "Redis",
-    "QuantityInStock": 49
-  },
-  {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "/images/products/boot-core2.png",
-    "Type": "Boots",
-    "Brand": "NetCore",
-    "QuantityInStock": 28
-  },
-  {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
-    "PictureUrl": "/images/products/boot-core1.png",
-    "Type": "Boots",
-    "Brand": "NetCore",
-    "QuantityInStock": 69
-  },
-  {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "PictureUrl": "/images/products/boot-ang2.png",
-    "Type": "Boots",
-    "Brand": "Angular",
-    "QuantityInStock": 35
-  },
-  {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "/images/products/boot-ang1.png",
-    "Type": "Boots",
-    "Brand": "Angular",
-    "QuantityInStock": 27
+    "Name": "Motorcycle Graphic T-shirt",
+    "Description": "An olive green t-shirt with a small graphic of a motorcycle and text printed on the chest.",
+    "Price": 5,
+    "PictureUrl": "/images/products/tshirt6.png",
+    "Type": "T-shirt",
+    "Brand": "Unbranded",
+    "QuantityInStock": 1
   }
 ]
