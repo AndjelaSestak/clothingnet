@@ -1,7 +1,7 @@
 <div class="flex mt-32 gap-6">
     <div class="w-3/4">
         <mat-stepper 
-            (selectionChange)="onStepChange($event)"
+            (selectionChange)="onStepChange($event, stepper)"
             [linear]="true"
             #stepper class="bg-white border border-gray-200 shadow-sm">
             <mat-step label="Address" [completed]="completionStatus().address">

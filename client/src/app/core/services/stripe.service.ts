@@ -4,7 +4,7 @@ import { environment } from '../../../environments/environment';
 import { HttpClient } from '@angular/common/http';
 import { CartService } from './cart.service';
 import { Cart } from '../../shared/models/cart';
-import { firstValueFrom, map } from 'rxjs';
+import { catchError, firstValueFrom, map, of, throwError } from 'rxjs';
 import { AccountService } from './account.service';
 
 @Injectable({
@@ -132,7 +132,11 @@ export class StripeService {
           return cart;
         }
         return cart;
-      })
+      }),
+      catchError(err => {
+      // Vrati samo objekat sa message, TypeScript neće mešati tipove
+      return throwError(() => new Error(err.error?.message || 'Not enough stock'));
+    })
     )
   }
 

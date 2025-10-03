@@ -1,4 +1,5 @@
 using System;
+using API.Errors;
 using API.Extensions;
 using API.SignalR;
 using Core.Entities;
@@ -23,11 +24,26 @@ public class PaymentsController(IPaymentService paymentService,
     [HttpPost("{cartId}")]
     public async Task<ActionResult<ShoppingCart>> CreateOrUpdatePaymentIntent(string cartId)
     {
-        var cart = await paymentService.CreateOrUpdatePaymentIntent(cartId);
+        /*var cart = await paymentService.CreateOrUpdatePaymentIntent(cartId);
 
         if (cart == null) return BadRequest("Problem with your cart");
 
-        return Ok(cart);
+        return Ok(cart);*/
+
+        //izmena
+        try
+        {
+            var cart = await paymentService.CreateOrUpdatePaymentIntent(cartId);
+
+            if (cart == null) return BadRequest("Problem with your cart");
+
+            return Ok(cart);
+        }
+        catch (OutOfStockException ex)
+        {
+            return BadRequest(new ApiErrorResponse(400, ex.Message, null));
+        }
+        //
     }
 
     [HttpGet("delivery-methods")]

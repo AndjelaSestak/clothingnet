@@ -46,6 +46,8 @@ export class ShopComponent implements OnInit{
 
   shopParams = new ShopParams();
   pageSizeOptions = [5,10,15,20];
+  //izmena
+  filteredProducts: Product[] = [];
   
   ngOnInit(): void {
     this.initializeShop();
@@ -65,7 +67,11 @@ export class ShopComponent implements OnInit{
 
   getProducts(){
     this.shopService.getProducts(this.shopParams).subscribe({
-      next: response => this.products=response,
+      next: response => {
+      this.products = response;
+      // Filtriranje proizvoda čija je količina > 0
+      this.filteredProducts = response.data.filter(p => p.quantityInStock > 0);
+    },
       error: error => console.log(error)
     })
   }

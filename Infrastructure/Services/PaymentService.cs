@@ -116,13 +116,20 @@ public class PaymentService : IPaymentService
         foreach (var item in cart.Items)
         {
             var productItem = await unit.Repository<Core.Entities.Product>()
-                .GetByIdAsync(item.ProductId) 
-	                ?? throw new Exception("Problem getting product in cart");
+                .GetByIdAsync(item.ProductId)
+                    ?? throw new Exception("Problem getting product in cart");
 
             if (item.Price != productItem.Price)
             {
                 item.Price = productItem.Price;
             }
+
+            //izmena
+            if (item.Quantity > productItem.QuantityInStock)
+            {
+                throw new Exception($"Not enough stock for {productItem.Name}");
+            }
+            //
         }
     }
 

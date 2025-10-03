@@ -101,7 +101,7 @@ export class CheckoutComponent implements OnInit{
 
   }
 
-  async onStepChange(event: StepperSelectionEvent) {
+  async onStepChange(event: StepperSelectionEvent, stepper: MatStepper) {
     if (event.selectedIndex === 1) {
       if (this.saveAddress) {
         const address = await this.getAddressFromStripeAddress() as Address;
@@ -109,7 +109,21 @@ export class CheckoutComponent implements OnInit{
       }
     }
     if (event.selectedIndex === 2) {
-      await firstValueFrom(this.stripeService.createOrUpdatePaymentIntent());
+      /*await firstValueFrom(this.stripeService.createOrUpdatePaymentIntent());*/
+      //izmena
+     try {
+  await firstValueFrom(this.stripeService.createOrUpdatePaymentIntent());
+} catch (err: any) {
+  // Ako backend vraća objekat sa message
+  const message = err.error?.message || 'Something went wrong';
+  this.snackbar.error(message);
+
+  if (event.previouslySelectedIndex !== undefined) {
+    stepper.selectedIndex = event.previouslySelectedIndex;
+  }
+
+  return; // zaustavlja dalje bacanje greške
+}//
     }
     if (event.selectedIndex === 3) {
       await this.getConfirmationToken();

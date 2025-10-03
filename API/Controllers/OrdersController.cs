@@ -32,6 +32,15 @@ public class OrdersController(ICartService cartService, IUnitOfWork unit) : Base
 
             if (productItem == null) return BadRequest("Problem with the order");
 
+
+            //izmena
+            if (productItem.QuantityInStock < item.Quantity)
+            {
+                return BadRequest($"Not enough stock for product {productItem.Name}");
+            }
+            //
+
+
             var itemOrdered = new ProductItemOrdered
             {
                 ProductId = item.ProductId,
@@ -46,6 +55,15 @@ public class OrdersController(ICartService cartService, IUnitOfWork unit) : Base
                 Quantity = item.Quantity
             };
             items.Add(orderItem);
+
+            //izmena
+            productItem.QuantityInStock -= item.Quantity;
+            if (productItem.QuantityInStock < 0)
+            {
+                productItem.QuantityInStock = 0; // sigurnosna mera
+            }
+            unit.Repository<Product>().Update(productItem);
+            //
         }
 
         var deliveryMethod = await unit.Repository<DeliveryMethod>().GetByIdAsync(orderDto.DeliveryMethodId);
